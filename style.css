@@ -55,12 +55,12 @@ a:active {
   align-items: center;
 }
 
-input{
-  width: 230px;
-  height: 40px;
+input {
+  width: 300px;
+  height: 50px;
   padding: 8px;
   border: none;
-  border-radius:4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
   background-color: var(--dark-bg);
   color: var(--light-purple);
 }
@@ -77,7 +77,7 @@ button {
   width: 70px;
   height: 40px;
   border: none;
-  border-radius:0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
   background-color: var(--button-bg);
 }
 
@@ -90,7 +90,7 @@ button {
 }
 
 #content {
-  width: 570px;
+  width: 100%;
   height: 310px;
   padding-right: 70px;
   display: flex;
@@ -149,11 +149,12 @@ h1 {
 }
 
 #text-content {
-  width: 472px;
+  width: 100%;
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 40px;
 }
 
 h2 {
@@ -193,11 +194,12 @@ h2 {
 }
 
 .post {
-  width: 370px;
+  width: 30%;
   height: 460px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 h3 {
